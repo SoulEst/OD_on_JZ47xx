@@ -1,0 +1,3 @@
+#!/bin/sh
+# Tells u-boot to boot from the internal Micro SD card/NAND flash
+dd if=mmcblk.txt of=mmcblk0 bs=1 seek=3 skip=172223 count=3

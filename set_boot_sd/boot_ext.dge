@@ -1,0 +1,3 @@
+#!/bin/sh
+# Tells u-boot to boot from the external Micro SD card
+dd if=mmcblk.txt of=/dev/mmcblk0 bs=1 seek=0 skip=172223 count=3
